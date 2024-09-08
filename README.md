@@ -23,3 +23,5 @@ flink run /path/to/jarfile
 ```shell
 ./bin/flink run /path/to/jarfile
 ```
+
+## Join [Discord](https://discord.innoskrit.in) in case you have any query.
