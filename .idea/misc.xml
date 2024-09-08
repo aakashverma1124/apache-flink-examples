@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/window-word-counter/pom.xml" />
+        <option value="$PROJECT_DIR$/reduce-operation/pom.xml" />
       </list>
     </option>
   </component>
