@@ -23,7 +23,6 @@ public class TumblingWindowEventTime {
         DataStream<Tuple2<Long, String>> mapped = input.map((MapFunction<String, Tuple2<Long, String>>) str -> {
             String[] words = str.split(",");
             return new Tuple2<>(Long.parseLong(words[0]), words[1]);
-
         }).returns(Types.TUPLE(Types.LONG, Types.STRING));
 
         DataStream<Tuple2<Long, String>> reduced = mapped
